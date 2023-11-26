@@ -2,6 +2,8 @@ import './App.css';
 import Person from "./Person"
 import Event from './Event';
 import SumCalculator from './SumCalculator';
+import ConditionRender from './ConditionRender';
+import CondRend from './CondRend';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Person name="John"/>
       <Event />
       <SumCalculator />
+      <ConditionRender />
+      <CondRend />
     </div>
   );
 }
