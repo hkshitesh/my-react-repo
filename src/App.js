@@ -3,8 +3,10 @@ import Person from "./Person"
 
 function App() {
   return (
-    <div className="App-header">
-      <Person></Person>
+    <div>
+      <Person name="Amit"/>
+      <Person name="Karan"/>
+      <Person name="John"/>
     </div>
   );
 }
