@@ -9,7 +9,7 @@ class Person extends Component{
         return(
         <div>
             <i>
-                <h1>Hello {this.props.name}, This is FS Class</h1>
+                <h1>Hello {this.props.name}, This is FS Class. Your Age is  {this.props.age}</h1>
             </i>
         </div>
         );
