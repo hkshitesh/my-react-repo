@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 class Event extends Component {
-    myFunction() {
+    myFunction = () => {
         alert("Hello GFG");        
     }
     render() {
